@@ -1,0 +1,31 @@
+.main-boxes {
+  height: 100vh;
+  width: 100%;
+}
+
+.left-box {
+  width: 33%;
+  height: 100vh;
+  background-color: blue;
+  float: left;
+}
+.right-box {
+  width: 33%;
+  height: 100vh;
+  background-color: #00CED1;
+  float: left;
+  position: relative;
+}
+.middle-box {
+  width: 33%;
+  height: 100vh;
+  background-color: #7CFC00;
+  float: left;
+}
+.little-box {
+  width: 100%;
+  height: 30%;
+  background-color: red;
+  position: absolute;
+  bottom: 0;
+}
